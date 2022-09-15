@@ -1,0 +1,576 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+h2{ font-size: 5vw;
+margin: 0%;}
+h3{ font-size: 1.8em;}
+h4{ font-size: 1em;}
+p { font-size: 1.2em;}
+
+
+body{
+   
+    font-family: sans-serif;
+    margin: 0;
+    background: #F8F9F9;
+    border-left: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 0 200px 0 ;
+   box-shadow: inset -10px 0 13px #D5DBDB, inset -20px 0 5px #F4ECF7;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section1{
+    text-align: center;
+    position: relative;
+}
+
+
+.section1 h2{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color:#E8DAEF  ;
+    box-shadow: 0 50px 9px;
+}
+
+
+
+.section1 h2{
+    border-radius: 360px;
+    border: solid 3px #C39BD3;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5))
+    ,url("img/Clinica.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 45vw;
+    margin: auto;
+   
+ 
+}
+
+.contect-info ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #FAD7A0 ;
+}
+
+#lista1{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Clinica\ 2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 360px;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 15vh;
+    max-width: 100px; 
+    height: 100px;
+    margin-right: 4em;  
+    color: #F7DC6F;  
+    font-weight: bold;
+}
+
+
+
+#lista2{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("img/clinica\ 3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 360px;
+    margin-bottom: 2em;
+    text-align: center;
+    height: 15vh;
+    max-width: 100px; 
+    height: 100px;
+    margin-right: 3em;
+    color: #F7DC6F;
+    font-weight: bold;  
+} 
+
+#lista3{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Clinica\ 4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 360px;
+    height: 15vh;
+    max-width: 100px; 
+    height: 100px;
+    margin-right: 9em;
+    color: #F7DC6F;  
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto{
+display: none;
+}
+
+.contect-info{
+  
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 1000px 0;
+    background: #ECF0F1;
+    z-index: -30;
+    position: relative;
+    top: -30px;
+    border-left: solid 2px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.info span{
+    color: #F7F9F9;
+    font-family: Arial;
+   
+}
+
+
+
+.div-p{
+    padding:  0 10px 1em;
+    color: #D89C76;
+    font-weight: bold;
+    border-top: solid 1px  rgba(0, 0, 0, 0.5);
+    padding-top: 1em;
+    border-radius: 100px 0 0 0 ;       
+}
+#parrafo{
+    
+    opacity: 0.85;
+    color:#D89C76;
+    border-radius: 30px 0 0 0;
+    padding: 1em;
+    border: 2px solid burlywood;
+    border-left: none;
+}
+
+.contect-work button{
+background: none;
+font-size: 1.5em;
+font-family: sans-serif;
+border:none;
+color:#C39BD3;
+font-weight: bold;
+}
+
+.contect-work button:hover{
+    transition: color 2s ease-out;
+    outline: none;
+    color: #F39C12;
+}
+
+.contect-work{
+
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    margin-right: 2em; 
+}
+
+.contect-work .cartas{
+    color: #F4ECF7;
+}
+
+.contect-work p{
+    display:none;
+}
+
+.cartas{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.News:first-child{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(0,0, 0,0.5),
+        rgba(0,0, 0,0.5)
+    )
+    ,url("img/Clinica\ 5.jpg");
+    margin-bottom: 1em ;
+    width: auto;
+    height: 45vh;
+    margin-right: 3em ;
+    border-right: 3px solid #DDD191  ;
+    border-bottom: 3px solid #DDD191 ;
+    border-radius: 150px 50px /200px 30px  ;
+}
+
+.News:first-child h3{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #D89C76;
+}
+
+.News:nth-child(2){
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( 
+        rgba(0,0, 0,0.5),
+        rgba(0,0, 0,0.5)
+        )
+    ,url("img/Clinica\ 6.jpg");
+    margin-bottom: 1em ;
+    width: auto;
+    height: 45vh; 
+    margin-right: 4em; 
+    border-left: 3px solid #DDD191;
+    border-top: 3px solid #DDD191;
+    border-radius: 150px 30px 150px  /100px 10px 200px ;
+}
+
+.News:nth-child(2) h3{
+    padding: 20px;
+    text-align: center;
+    color: #D89C76;
+    font-size: 20px;
+}
+
+
+.News:nth-child(3){
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+
+        rgba(0,0, 0,0.5),
+        rgba(0,0, 0,0.5)
+    )
+    ,url("img/clinica\ 7.jpg");
+    margin-bottom: 1em ;
+    width: auto;
+    height: 45vh;
+    margin-right: 5em;
+    border-left: 3px solid #DDD191;
+    border-top: 3px solid #DDD191;
+    border-radius:  150px 30px / 10px 200px;
+}
+
+.News:nth-child(3) h3{
+
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    color: #D89C76;
+}
+
+.desarrollo {
+    list-style: none;
+}
+
+.contect-wrapper{
+    max-width: auto;
+    position: relative;
+    margin-left: 3em;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.5);
+    height: 100px;
+    background:#FDFEFE ;
+    border-bottom-left-radius: 200px ;
+   margin-bottom: 2em;
+    
+}
+
+header h1{
+    margin: none;
+    padding: 20px 30px ;
+}
+
+  #logo span{
+    font-weight: bold;
+    color:#B9770E ;
+    padding: 0 2px;  
+}
+
+.division{
+    height: 100px;
+}
+
+#logo{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5) ;
+    font-family: 'arial narrow';
+
+
+}
+
+ header nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    align-items: center;
+}
+    
+
+
+
+header button{
+    background: 0%;
+    border: none;
+}
+
+
+.resividor{
+    height: 90vh;
+    padding-top: 7em;
+
+}
+
+header button:hover,
+header button:focus{
+padding: 3px 4px ;
+color:burlywood;
+border: none ;
+font-size: 1em;
+transition: background-color 1s ease-out;
+
+
+}
+
+#botonQ{
+height: 20vh;
+padding-top: 20px;
+
+
+}
+
+#botonQ button:hover,
+#botonQ button:focus{
+    color: #C39BD3;
+    padding: 5px 7.5px ;
+    outline: none;
+    border-color:#C39BD3;
+    transition: color 1s ease-out;
+}
+
+#botonQ button{
+margin: 0 1em 0 ;
+background: none;
+border-bottom: solid 2px #C39BD3;
+border-radius:  0px 0px  10px 10px  ;
+border-top: none;
+border-left: none;
+border-right: none;
+width: 100px;
+}
+
+.wave1{
+    position: relative;
+    z-index: -35;
+   
+}
+
+.wave2{
+    position: relative;
+    z-index: -36;
+    top: 54px;
+}
+
+#section-end{
+    height: 40vh;
+    padding-top: 3em;
+    border-right: 4px solid rgba(230,230,230);
+    margin-right: 2em;
+    background-color: #E8DAEF;
+    position: relative;
+    z-index: -20;
+    border-bottom-left-radius: 100px;
+    box-shadow: inset 10px 0 20px #808B96 ;
+}
+
+#section-end li{
+padding: 2px 0px ;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+   
+    
+}
+
+header{
+    z-index: 20;
+}
+
+
+/*LARGE SCREEN*/
+@media (min-width:700px) {
+  .division{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    
+  }
+
+ .division nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-items: center;
+     
+      
+  }
+
+  nav a{
+      padding: 2px 10px;
+    
+  }
+
+
+
+  h2 {
+      font-size: 3vw;
+  }
+
+  .conteiner-2{
+    padding-top: 15em ;
+ }
+
+ .wave1{
+     top: -130px;
+     
+ }
+
+.contect-info{
+
+    top: -135px;
+}
+
+.contect-info{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-left: solid 2px rgba(0, 0, 0, 0.5);
+    gap: 1em;
+
+    
+}
+ 
+.contect-info ul {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: end;
+    gap: 1em;
+  
+
+}
+
+
+
+#lista1{
+
+    border-radius: 0px 0px;
+    margin: 0px;
+    max-width: 100%;
+    padding-right: 20em 
+    
+
+}
+
+#texto{
+  display: block;
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+}
+
+#lista2{
+
+    border-radius: 0px 0px;
+    margin: 0px;
+    max-width: 100%;
+    padding-right: 23em;
+}
+#lista3{
+
+    border-radius: 0px 0px;
+    margin: 0px;
+    max-width: 100%;
+    padding-right: 20em ;
+    
+}
+
+.contect-work .cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 350px ;
+    
+}
+
+.contect-work .News{
+    margin: 0px 3em;
+}
+
+.News p {
+    display: block;
+    color: #213C57;
+    padding-top: 7em;
+    font-weight: bold;
+    
+}
+
+.News{
+    display:grid;
+    gap: 3em;
+}
+
+#section-end{
+    display: flex;
+    background-image: url("img/clinica\ 9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.5) ;
+    font-weight: bold;
+   
+}
+
+
+
+}
